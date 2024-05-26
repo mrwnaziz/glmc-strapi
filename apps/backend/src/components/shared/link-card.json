@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_link_cards",
+  "info": {
+    "displayName": "linkCard",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": ["_self", "_blank", "_parent", "_top"],
+      "default": "_self",
+      "required": true
+    }
+  }
+}
